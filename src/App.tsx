@@ -1,9 +1,8 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import  Home  from "./components/Home";
+import  Home  from "./components/Home/Home";
 import  Layout  from "./components/layouts/layout";
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
+import AktuelleWerbung from "./components/CurrentAdvertising/AktuelleWerbung";
 
 function App() {
   return (
@@ -12,6 +11,7 @@ function App() {
       <Routes>
         <Route element={<Layout/>} >
           <Route path="/" element={<Home />} />
+          <Route path="/AktuelleWerbung" element={<AktuelleWerbung/>} />
         </Route>
       </Routes>
     </BrowserRouter>
