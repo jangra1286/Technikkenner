@@ -1,11 +1,11 @@
 
+import React from 'react'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import ActionSlider from "./ActionSlider";
 import PopularCategores from "./PopularCategores";
 import ProductSlider from "./ProductSlider";
 import TopSlider from "./TopSlider";
-
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Partnerslider from "./Partnerslider";
 import ShopAddress from "./ShopAddress";
 import GoogleView from "./GoogleView";

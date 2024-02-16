@@ -6,29 +6,29 @@ import ProductSlider from './ProductSlider';
 function AktuelleWerbung() {
   return (
     <>
-      <section class="innerPageBanner">
+      <section className="innerPageBanner">
         <img src="assets/images/Headerbanner-Prospekte.jpg" alt="" />
       </section>
-      <div class="innepageBody">
-        <div class="catelogSection">
-          <div class="container">
-            <div class="card catelogCard">
+      <div className="innepageBody">
+        <div className="catelogSection">
+          <div className="container">
+            <div className="card catelogCard">
 
-              <div class="card-body">
-                <h2 class="card-title text-light m-0">UNSERE AKTUELLEN ANGEBOTE</h2>
-                <div class="cardDetails">
-                  <div class="row">
-                    <div class="col-md-4">
-
-                      ASs
-                    </div>
-
-                    <div class="col-md-4">
+              <div className="card-body">
+                <h2 className="card-title text-light m-0">UNSERE AKTUELLEN ANGEBOTE</h2>
+                <div className="cardDetails">
+                  <div className="row">
+                    <div className="col-md-4">
 
                       ASs
                     </div>
 
-                    <div class="col-md-4">
+                    <div className="col-md-4">
+
+                      ASs
+                    </div>
+
+                    <div className="col-md-4">
 
                       ASs
                     </div>
