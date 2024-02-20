@@ -898,3 +898,6 @@ p {
         max-width: 60%;
     }
 }
+.slick-dots li button::before {
+    display: none;
+}

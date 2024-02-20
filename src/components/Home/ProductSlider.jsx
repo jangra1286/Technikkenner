@@ -1,7 +1,8 @@
 import React from 'react';
 import Slider from "react-slick";
 
-function ProductSlider() {
+function ProductSlider(props) {
+    console.log('proudctSlider', props)
     const settings = {
         arrows: true,
         dots: false,
